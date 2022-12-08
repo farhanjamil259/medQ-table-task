@@ -1,0 +1,34 @@
+.table {
+  border-spacing: 0 12px;
+
+  &_header {
+    &_data {
+      padding: 18px;
+      background-color: #ededf3;
+      cursor: pointer;
+      &:first-child {
+        border-bottom-left-radius: 12px;
+      }
+      &:last-child {
+        border-bottom-right-radius: 12px;
+      }
+    }
+  }
+
+  &_row {
+    &_data {
+      background-color: #fff;
+
+      &:first-child {
+        border-top-left-radius: 12px;
+        border-bottom-left-radius: 12px;
+      }
+      &:last-child {
+        border-top-right-radius: 12px;
+        border-bottom-right-radius: 12px;
+      }
+
+      padding: 24px;
+    }
+  }
+}
